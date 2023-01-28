@@ -1,0 +1,221 @@
+body{
+ 
+  background: url(sandgrain2.gif) ;
+  
+}
+header.banniere{
+  position
+  width: 15rem;
+  height: 8rem;
+  border: 0.2rem solid rgb(0, 0, 0);
+}
+h1.bann{
+  display: flex;
+  justify-content: center;
+  rgb(0, 0, 0);
+  white-space: nowrap;
+  position: absolute;
+  top: 4.9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+    5px 13px 15px black;
+}
+h1.bann:hover {
+  transition: 0.3s;
+  transform: scale(1.1)translate(-50%, -50%);
+  text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+  1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+  1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
+}
+
+nav.side{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  
+  position: relative;
+  top: 6rem;
+  height: 39rem;
+}
+
+div.container{
+ border: 0.2rem solid rgb(0, 0, 0);
+  height: 59.1rem;
+}
+
+section.left-side{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 35rem;
+}
+h3{
+  solid rgb(0, 0, 0);
+}
+p{
+  solid rgb(0, 0, 0);
+}
+h2{
+  solid rgb(0, 0, 0);
+}
+h1{
+  solid rgb(0, 0, 0);
+}
+#menu-vertical, #menu-vertical ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  width: 10rem;
+  position: relative;
+  left: 41.9%;
+  border: 0.1rem solid rgb(0, 0, 0);
+}
+#menu-vertical li {
+  position: relative;
+  
+  
+}
+#menu-vertical a {
+  display:flex;
+flex-direction: column;
+  text-decoration: none;
+  color: black;
+ 
+}
+#menu-vertical ul {
+  position: absolute;
+  left:-999em;
+  
+}
+#menu-vertical li:hover ul {
+  top: 0;
+  left: 10rem;
+
+}
+#menu-vertical li:hover {
+  border: 0.1rem solid rgb(0, 0, 0);
+  
+  background:rgb(255 255 255);  
+}
+section.right-side{
+  width: 61.56rem;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+footer.pied{
+  height: 3rem;
+  position: relative;
+  top: 8.6rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(0, 0, 0);
+  color: #000;
+}
+h3.bann{
+  display: flex;
+  justify-content: center;
+  color: black;
+  white-space: nowrap;
+  position: absolute;
+  top: 4.9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+    5px 13px 15px black;
+}
+h3.bann:hover {
+  transition: 0.3s;
+  transform: scale(1.1)translate(-50%, -50%);
+  text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+  1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+  1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
+}
+.b1{
+	margin-left: 30%;
+	margin-right: 30%;
+	padding: 1em;
+ 	border: 5px ridge red;
+	border-color: red;
+}
+.b2{
+	padding: 1em;
+ 	border: 5px ridge blue;
+	border-color: blue;
+}
+.b3{
+	padding: 1em;
+ 	border: 1px ridge red;
+	border-color: red;
+}
+.a1{
+font-weight: bold;
+}
+.a2{
+	height: 10px;
+}
+section.right-side-cv{
+  width: 61.56rem;
+  height: 68.5rem;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #808080;
+}
+div.container-cv{
+  border: 0.2rem solid rgb(0, 0, 0);
+   height: 86.5rem;
+ }
+ footer.pied-cv{
+  height: 3rem;
+  position: relative;
+  top: 36.2rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(0, 0, 0);
+  color: #000;
+}
+img.photo-tete{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    top: 4.9%;
+    left: 75%;
+  }
+  @media (min-width: 768px) {
+    nav #right-side{
+      padding: 0.25em 0.75em;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    nav #left-side {
+      display: none;
+    }
+    nav #left-side {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    body {
+      overflow: visible;
+    }
+    nav {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+    nav #right-side #container {
+      margin: 10px;
+    }
+  }
+  
